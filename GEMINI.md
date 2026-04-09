@@ -1,20 +1,13 @@
-# AI Assistant Instructions — Gemini CLI Instructions
+# 12-factor-agents-research — Gemini CLI Instructions
 
-**IMPORTANT: Copy or merge this file into your project's CLAUDE.md file to activate agent personas.**
+This repo uses [AGENTS.md](AGENTS.md) as the canonical instruction file. Read it before making changes.
 
-## Build & Test
+## Gemini Notes
 
-```bash
-# Build project
-[your build command]
+- Use [AGENTS.md](AGENTS.md) for build, verification, and repo-specific conventions.
+- Keep [GEMINI.md](GEMINI.md), [CLAUDE.md](CLAUDE.md), and `.github/copilot-instructions.md` as thin compatibility mirrors.
+- Add Gemini-specific notes here only when they cannot live in [AGENTS.md](AGENTS.md).
 
-# Run tests  
-[your test command]
+## Summary
 
-# Lint code
-[your lint command]
-
-# Deploy locally
-[your deploy command]
-```
-
+> Canonical instructions: AGENTS.md

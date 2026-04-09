@@ -1,24 +1,24 @@
-# AI Assistant Instructions — Agent Instructions
+# 12-factor-agents-research — Agent Instructions
 
-**IMPORTANT: Copy or merge this file into your project's CLAUDE.md file to activate agent personas.**
+> Canonical instructions: AGENTS.md
 
-> Canonical source: CLAUDE.md
+Local workspace copy of the public `12-factor-agents` research repo. Treat the README and content files as the primary source material and keep local instruction files thin.
 
-## Build & Test
-
-[CUSTOMIZE THIS SECTION FOR YOUR PROJECT]
+## Build & Verify
 
 ```bash
-# Build project
-[your build command]
-
-# Run tests  
-[your test command]
-
-# Lint code
-[your lint command]
-
-# Deploy locally
-[your deploy command]
+make setup
+make teardown
 ```
 
+No dedicated repo-local test or lint target is configured here. Verify documentation-oriented edits manually and avoid committing generated dependencies.
+
+## Working Rules
+
+- Use `README.md` and the `content/` tree as the primary project context instead of reintroducing placeholder persona templates.
+- Keep `AGENTS.md` canonical; keep `CLAUDE.md` and `GEMINI.md` as thin compatibility mirrors.
+- Prefer upstream-compatible documentation changes over local workflow scaffolding unless the repo explicitly adopts it.
+
+## Shared Research Repository
+
+Cross-project research lives at `~/hairglasses-studio/docs/` (git: hairglasses-studio/docs). When launching research agents, check existing docs first and write reusable research outputs back to the shared repo rather than local docs/.
