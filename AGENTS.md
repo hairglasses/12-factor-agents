@@ -18,7 +18,3 @@ No dedicated repo-local test or lint target is configured here. Verify documenta
 - Use `README.md` and the `content/` tree as the primary project context instead of reintroducing placeholder persona templates.
 - Keep `AGENTS.md` canonical; keep `CLAUDE.md` and `GEMINI.md` as thin compatibility mirrors.
 - Prefer upstream-compatible documentation changes over local workflow scaffolding unless the repo explicitly adopts it.
-
-## Shared Research Repository
-
-Cross-project research lives at `~/hairglasses-studio/docs/` (git: hairglasses-studio/docs). When launching research agents, check existing docs first and write reusable research outputs back to the shared repo rather than local docs/.
