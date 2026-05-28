@@ -21,10 +21,28 @@ This fork is related context, not primary implementation proof. It is useful bec
 
 ## Reviewer Path
 
-1. Read the short factor list in `README.md`.
-2. Read factors 3, 4, 5, 6, 7, 8, 9, and 12 for the strongest overlap with production agent infrastructure.
-3. Compare those principles with the concrete public-safe repos listed above.
-4. Treat this repo as related context, not a claim of first-party implementation depth.
+No build is required for portfolio review. Use this read order:
+
+1. Read the fork/context callout at the top of `README.md`.
+2. Read the short factor list in `README.md`.
+3. Read factors 3, 4, 5, 6, 7, 8, 9, and 12 for the strongest overlap with production agent infrastructure.
+4. Compare those principles with the concrete public-safe repos listed above.
+5. Treat this repo as related context, not a claim of first-party implementation depth.
+
+## Context Diagram
+
+```mermaid
+flowchart LR
+    Factors[12-factor agent principles] --> ToolBoundaries[tool boundaries]
+    Factors --> StateRecovery[state and recovery]
+    Factors --> HumanApproval[human approval]
+    Factors --> LocalAutomation[local automation]
+    ToolBoundaries --> OpenMCPKit[open-mcpkit]
+    StateRecovery --> OpenRalph[open-ralphglasses]
+    HumanApproval --> OpenCareer[open-career-mcp]
+    LocalAutomation --> OpenWorkstation[open-workstation-mcp]
+    Factors --> Codexkit[codexkit]
+```
 
 ## Public Framing
 

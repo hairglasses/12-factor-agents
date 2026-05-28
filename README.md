@@ -18,6 +18,14 @@ Deep Dive"></a>
 
 <p></p>
 
+> [!NOTE]
+> Portfolio context: this is a public fork of HumanLayer's `12-factor-agents`.
+> For Mitch Not Mitchell's portfolio, it is related reading material, not
+> first-party implementation proof. Use
+> [docs/PORTFOLIO_CONTEXT.md](docs/PORTFOLIO_CONTEXT.md) to map these principles
+> to the first-party public implementation repos. First-person prose below is
+> upstream authorial context unless explicitly marked otherwise.
+
 *In the spirit of [12 Factor Apps](https://12factor.net/)*.  *The source for this project is public at https://github.com/humanlayer/12-factor-agents, and I welcome your feedback and contributions. Let's figure this out together!*
 
 > [!TIP]
@@ -258,4 +266,3 @@ Thanks to everyone who has contributed to 12-factor agents!
 All content and images are licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a>
 
 Code is licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>
-
