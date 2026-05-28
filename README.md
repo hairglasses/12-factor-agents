@@ -215,6 +215,8 @@ After digging through hundreds of AI libriaries and working with dozens of found
 ## Related Resources
 
 - Contribute to this guide [here](https://github.com/humanlayer/12-factor-agents)
+- This fork's [portfolio context notes](docs/PORTFOLIO_CONTEXT.md) map the
+  principles to concrete public-safe implementation repos.
 - [I talked about a lot of this on an episode of the Tool Use podcast](https://youtu.be/8bIHcttkOTE) in March 2025
 - I write about some of this stuff at [The Outer Loop](https://theouterloop.substack.com)
 - I do [webinars about Maximizing LLM Performance](https://github.com/hellovai/ai-that-works/tree/main) with [@hellovai](https://github.com/hellovai)
@@ -256,5 +258,4 @@ Thanks to everyone who has contributed to 12-factor agents!
 All content and images are licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 License</a>
 
 Code is licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 License</a>
-
 
