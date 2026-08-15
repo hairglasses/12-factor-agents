@@ -16,5 +16,6 @@ No dedicated repo-local test or lint target is configured here. Verify documenta
 ## Working Rules
 
 - Use `README.md` and the `content/` tree as the primary project context instead of reintroducing placeholder persona templates.
-- Keep `AGENTS.md` canonical; keep `CLAUDE.md` and `GEMINI.md` as thin compatibility mirrors.
+- Keep `AGENTS.md` canonical and `CLAUDE.md` as the only compatibility mirror.
+- Gemini CLI and GitHub Copilot instruction mirrors are retired; do not recreate `GEMINI.md` or `.github/copilot-instructions.md`.
 - Prefer upstream-compatible documentation changes over local workflow scaffolding unless the repo explicitly adopts it.
